@@ -1,0 +1,33 @@
+@media(max-width:670px){
+   
+    main .main-input,
+    main .main-buttons{
+        width: 80%;
+    }
+    main .main-input-container{
+        justify-content: center;
+    }
+    main .main-logo{
+        width: 50%;
+    }
+    main .main-logo img{
+        width: 80%;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    footer .col-one,
+    footer .col-two{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-self: initial;
+    }
+    footer .col-one ul, footer .col-two ul{
+        padding-left: 10px;
+    }
+
+
+}
